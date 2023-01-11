@@ -47,12 +47,10 @@ Run `main` with the following commnad (for macOS user):
 ./main [algorithm] [iteration]
 ```
 
-<div align="center">
 | Option | Description |
 | --- | --- |
 | `[algorithm]` | `forward`: run forward algorithm <br>`forward-backward`: run forward-backward algorithm <br>`baum-welch`: run Baum-Welch algorithm<br>`scaling`: run scaled Baum-Welch algorithm<br>`viterbi`: run Viterbi algorithm    |
 | `[iteration]` | How many iterations to run.<br>Only required for `baum-welch` & `scaling`.|
-</div>
 
 For example, the following command runs Baum-Welch algorithm for 100 iterations:
 
