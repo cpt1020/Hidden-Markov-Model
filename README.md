@@ -14,7 +14,7 @@
 ## Example Used in this Project
 
 <p align=center>
-    <img src="img/hmm.png">
+    <img src="img/hmm.png" width="400">
 </p>
 
 - $Observed\ sequence:$ `0011110` 
