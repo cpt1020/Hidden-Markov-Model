@@ -57,7 +57,7 @@ For example, the following command runs Baum-Welch algorithm for 100 iterations:
 ./main baum-welch 100
 ```
 
-The following example runs Viterbi algorithm:
+The following command runs Viterbi algorithm:
 
 ```cmd
 ./main viterbi
