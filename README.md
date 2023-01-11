@@ -9,8 +9,7 @@
 - Forward Algorithm
 - Forward-Backward Algorithm
 - Baum-Welch Algorithm
-- Scaled Baum-Welch Algorithm
-// Scaling is a technique for dealing with underflow issue, which could be encountered if the observed sequence is too long
+- Scaled Baum-Welch Algorithm<br>// Scaling is a technique for dealing with underflow issue, which could be encountered if the observed sequence is too long
 
 ## Example Used in this Project
 
