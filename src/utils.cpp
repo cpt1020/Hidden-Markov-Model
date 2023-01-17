@@ -35,6 +35,10 @@ void print_prob_of_observed_seq(long double alpha[2][7]){
     cout << "\nThe probability of the observed sequence is " << (alpha[0][6]+alpha[1][6]) << endl;
 }
 
+void print_prob_of_observed_seq_BW(long double alpha[2][7]){
+    cout << "\nThe probability of the observed sequence under the new HMM is: " << (alpha[0][6]+alpha[1][6]) << endl;
+}
+
 void print_alpha(long double alpha[2][7]){
     cout << "\nAlpha:" << endl;
     cout << right << setw(10) << "Time  ";

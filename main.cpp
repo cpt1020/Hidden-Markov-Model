@@ -62,8 +62,9 @@ int main(int argc, char* argv[]){
         baum_welch_algo(initial_prob, transition_prob, emission_prob, observed_seq, alpha, beta, gamma, xi, iteration);
         
         // print results
-        print_prob_of_observed_seq(alpha);
         print_probability(initial_prob, transition_prob, emission_prob);
+        forward_algo(initial_prob, transition_prob, emission_prob, observed_seq, alpha);
+        print_prob_of_observed_seq_BW(alpha);
     }
     else if (strcmp(argv[1], "scaling") == 0){
         try {
@@ -79,8 +80,6 @@ int main(int argc, char* argv[]){
         // run scaled Baum-Welch algorithm
         scaling(initial_prob, transition_prob, emission_prob, observed_seq, alpha, beta, gamma, xi, iteration);
         
-        // print results
-        print_probability(initial_prob, transition_prob, emission_prob);
     }
     else{
         cout << "please enter valid argument" << endl;
