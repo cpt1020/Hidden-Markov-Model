@@ -34,10 +34,10 @@
 
 ## Getting Started
 
-Compile the program with the following command:
+To generate executable file, please use the `make` command:
 
 ```cmd
-g++ *.cpp src/*.cpp -std=c++17 -o main
+make
 ```
 
 Run `main` with the following commnad (for macOS user):

@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string.h>
 #include <cstdlib>
-#include "src/forward_algo.h"
-#include "src/forward_backward_algo.h"
-#include "src/baum_welch_algo.h"
-#include "src/scaling.h"
-#include "src/viterbi_algo.h"
-#include "src/utils.h"
+#include "forward_algo.h"
+#include "forward_backward_algo.h"
+#include "baum_welch_algo.h"
+#include "scaling.h"
+#include "viterbi_algo.h"
+#include "utils.h"
 using namespace std;
 
 int main(int argc, char* argv[]){
