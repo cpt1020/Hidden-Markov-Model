@@ -2,6 +2,7 @@
 #include "viterbi_algo.h"
 #include <iostream>
 #include <iomanip>
+#include <algorithm>
 using namespace std;
 
 void viterbi_decoding(int viterbi_state_sequence[]){

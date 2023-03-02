@@ -2,6 +2,7 @@
 #include "forward_backward_algo.h"
 #include <iostream>
 #include <iomanip>
+#include <algorithm>
 using namespace std;
 
 void calculate_gamma(long double alpha[2][7], long double beta[2][7], long double gamma[2][7]){
